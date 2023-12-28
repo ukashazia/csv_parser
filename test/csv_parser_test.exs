@@ -14,7 +14,8 @@ defmodule CsvParserTest do
                "Name" => "John Smith",
                "Phone" => "(123) 456-7890",
                "Salary" => "80000",
-               "Start_Date" => "2022-05-15"
+               "Start_Date" => "2022-05-15",
+               "status" => :pending
              },
              %{
                "Department" => "Marketing",
@@ -26,7 +27,8 @@ defmodule CsvParserTest do
                "Name" => "Alice Johnson",
                "Phone" => "(234) 567-8901",
                "Salary" => "70000",
-               "Start_Date" => "2022-03-20"
+               "Start_Date" => "2022-03-20",
+               "status" => :pending
              }
            ]
   end
