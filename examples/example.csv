@@ -1,0 +1,3 @@
+ID,Name,Department,Salary,Start_Date,Education_Level,Manager_ID,Location,Email,Phone
+101,John Smith,Engineering,80000,2022-05-15,Masters,201,New York,john.smith@example.com,(123) 456-7890
+102,Alice Johnson,Marketing,70000,2022-03-20,Bachelors,202,Los Angeles,alice.johnson@example.com,(234) 567-8901
