@@ -15,7 +15,7 @@ defmodule CsvParser do
     if File.exists?(file_path) do
       file_path
       |> File.stream!
-      |> CSV.decode!([headers: true, validate_row_length: true])
+      |> CSV.decode!([headers: true, validate_row_length: true] ++ options)
       |> Enum.map(& (Map.put(&1, "status", :pending)))
     end
   end
